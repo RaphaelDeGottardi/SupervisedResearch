@@ -1,6 +1,8 @@
 # SupervisedResearch Project on Google Trends Data
 
-## Topic:
+## Authors: Raphael De Gottardi, Michael Wenger
+
+### Topic:
 Analysis of Google search trends for measures of magical thinking
 in response to economic shocks.
 ### Environment
@@ -14,11 +16,14 @@ The environment will be named `SR`.
 
 ### Scripts
 - **Data Download**: 
-  - The data download was done using the script: `GT_data_loader.ipynb` (see the Troubleshooting section for difficulties).
+  - `GT_data_loader.ipynb`
+    - The data download form google using the pytrends librairy was done using this script  (see the Troubleshooting section for difficulties).
 
 - **Analysis**:
-  - The analysis can be found in: `GT_brexit.ipynb`
-    - General EDA and plots are found in the submission.
+  The analysis can be found in:
+  -  `GT_brexit.ipynb`
+     - General EDA and plots found in the submission.
+  - `Michus_script_name`
     - Spearman correlation evaluation.
 
 ### Troubleshooting
