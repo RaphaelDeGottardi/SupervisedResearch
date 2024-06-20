@@ -23,7 +23,7 @@ The environment will be named `SR`.
   The analysis can be found in:
   -  `GT_brexit.ipynb`
      - General EDA and plots found in the submission.
-  - `Michus_script_name`
+  - `spearman.ipynb`
     - Spearman correlation evaluation.
 
 ### Troubleshooting
