@@ -58,9 +58,10 @@ dependencies:
   - numpy=1.26.4=py310h055cbcc_0
   - numpy-base=1.26.4=py310h65a83cf_0
   - openjpeg=2.4.0=h4fc8c34_0
-  - openssl=3.0.13=h2bbff1b_2
+  - openssl=3.0.14=h827c3e9_0
   - packaging=23.2=py310haa95532_0
   - pandas=2.2.1=py310h5da7b33_0
+  - patsy=0.5.6=py310haa95532_0
   - peewee=3.17.3=py310h8b95c24_0
   - pillow=10.3.0=py310h2bbff1b_0
   - pip=24.0=py310haa95532_0
@@ -84,6 +85,7 @@ dependencies:
   - six=1.16.0=pyhd3eb1b0_1
   - soupsieve=2.5=py310haa95532_0
   - sqlite=3.45.3=h2bbff1b_0
+  - statsmodels=0.14.0=py310h9128911_0
   - tbb=2021.8.0=h59b6b97_0
   - tk=8.6.14=h0416ee5_0
   - tomli=2.0.1=py310haa95532_0
@@ -102,4 +104,6 @@ dependencies:
   - yfinance=0.2.40=pyhd8ed1ab_0
   - zlib=1.2.13=h8cc25b3_1
   - zstd=1.5.5=hd43e919_2
+  - pip:
+      - pysyncon==1.5.1
 prefix: C:\Users\rapha\anaconda3\envs\SR
