@@ -23,6 +23,8 @@ The environment will be named `SR`.
   The analysis can be found in:
   -  `GT_brexit.ipynb`
      - General EDA and plots found in the submission.
+  -  `GT_brexit DiD.ipynb`
+     - Difference in Differences method evaluation.
   - `spearman.ipynb`
     - Spearman correlation evaluation.
 
@@ -34,5 +36,8 @@ Pytrends is not an official API from Google, thus Google will frequently detect 
 
 For us, it worked to just try multiple times and use various VPN connections.
 
-**Note**: Downloading the data is not necessary as we provide it in the repository.
+**Note**: Downloading the data is not necessary as we provide it in the repository:
+  raw data is named following the pattern: google_trends_data_XX.csv
+  the full datasets (including some columns downloaded by hand) follow this pattern: merged_trends_data_XX.csv
+  These correspond to the ones used in the analysis
 
